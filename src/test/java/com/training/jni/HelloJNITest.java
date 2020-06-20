@@ -11,7 +11,7 @@ import static oshi.util.ExecutingCommand.runNative;
 public class HelloJNITest {
 
     @Test
-    public void makeJniCHeaderTest() {
+    public void makeCHeaderTest() {
         String resourcePath = "src/main/java/com/training/jni/HelloJNI.java";
         File file = new File(resourcePath);
         Path resourceDirectory = Paths.get("src", "test", "resources");
