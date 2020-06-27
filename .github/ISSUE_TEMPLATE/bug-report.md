@@ -23,4 +23,4 @@ A clear and concise description of what the bug is.
  - JDK version:
 
 ### 4. Screenshots
-if necessary, add screenshots to help explain your problem.
+If necessary, add screenshots to help explain your problem.
