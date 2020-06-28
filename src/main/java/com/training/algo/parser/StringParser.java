@@ -22,7 +22,7 @@ public class StringParser {
 
             if (isPreviousCharNumeric(stack) && !StringUtils.equals(token, "[")) {
                 int multiplyOperand = parseInt(stack.pop());
-                token = token.repeat(multiplyOperand);
+//                token = token.repeat(multiplyOperand);
             }
 
             stack.push(token);
@@ -56,6 +56,7 @@ public class StringParser {
         }
 
         int multiplyOperand = parseInt(charStack.pop());
-        return result.toString().repeat(multiplyOperand);
+        return "";
+//        return result.toString().repeat(multiplyOperand);
     }
 }
