@@ -7,7 +7,7 @@ import java.util.function.Function;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
-public class MainTest {
+public class TestSystemInfoTest {
 
     @Test
     public void testFunctionalInterface() {

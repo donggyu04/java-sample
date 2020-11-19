@@ -6,14 +6,24 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
+    compile files("${rootDir}/lib/sigar-native-1.0.jar")
     testCompile group: 'junit', name: 'junit', version: '4.12'
     providedCompile group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+    compile (group: "org.fusesource", name: "sigar", version:"1.6.4")
     compile group: 'com.google.guava', name: 'guava', version: '19.0'
+    compile group: 'com.github.oshi', name: 'oshi-core', version: '5.1.1'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
+
+//    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.1'
+//    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
+//    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.1'
+
 }
