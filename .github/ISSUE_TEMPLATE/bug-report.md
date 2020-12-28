@@ -17,10 +17,15 @@ A clear and concise description of what the bug is.
 4. See error
 
 ### 3. Environment
- - OS:
- - Browser:
- - nGrinder version:
- - JDK version:
+- Controller
+     - OS:
+     - Browser:
+     - JDK version:
+     - Controller version:
+- Agent
+     - OS:
+     - JDK version:
+     - Agent version:
 
 ### 4. Screenshots
 If necessary, add screenshots to help explain your problem.
